@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saite Roman Dikiy</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="site-contaier">
+      <header class="header">
+        <div class="container">
+          <div class="menu">
+            <div class="menu__container">
+              <a href="#" class="logo">
+                <img
+                  src="img/logo.svg"
+                  alt="Logo"
+                  class="container__logo-img"
+                />
+                <span class="container__logo">ROMAN DIKIY</span>
+              </a>
+              <nav class="nav menu__nav">
+                <ul class="nav__list list-reset">
+                  <li class="nav__item">
+                    <a href="#" class="nav__link">Главная</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#portfolio" class="nav__link">Портфолио</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#resume" class="nav__link">Обо мне</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#contacts" class="nav__link">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <section class="info">
+            <div class="info__left">
+              <h2 class="info__print"></h2>
+              <h1 class="info__name">Меня зовут &nbsp;Роман</h1>
+              <div class="info__hr_solid">
+                <span class="info__hr-left"></span>
+                <span class="info__hr-right"></span>
+              </div>
+              <p class="info__content">
+                Я&nbsp;занимаюсь версткой и&nbsp;программированием сайтов.
+              </p>
+              <p class="info__content">
+                Мне нравится создавать что-то новое, искать интересные решения,
+                делать невозможное при помощи простого кода и&nbsp;воплощать
+                свои идеи и&nbsp;идеи клиентов в&nbsp;жизнь.
+              </p>
+              <div class="button">
+                <button class="btn-reset button__btn" aria-label="Контакт">
+                  <a href="#contacts" class="button__link"
+                    >Написать сообщение</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="info__right">
+              <img src="./img/Roman.svg" alt="" class="info__foto" />
+            </div>
+          </section>
+        </div>
+      </header>
+      <main>
+        <section id="portfolio" class="portfolio-section">
+          <div class="container">
+            <div class="container__visually">
+              <span class="visually-hidden__hr-left"></span>
+              <h2 class="visually-hidden">МОИ РАБОТЫ</h2>
+              <span class="visually-hidden__hr-right"></span>
+            </div>
+            <div class="portfolio-section__top">
+              <h2 class="portfolio-section__title">
+                Просмотрите мои проекты и&nbsp;узнайте больше о&nbsp;моих
+                работах
+              </h2>
+              <div class="slider-nav portfolio-section__slider-nav">
+                <div class="swiper portfolio-section__items">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide portfolio-item">
+                      <img
+                        class="portfolio-item__image"
+                        src="img/portfolio/project_resume.jpg"
+                        alt="Portfolio cover"
+                      />
+                      <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">
+                          <b>Проект:</b> Site_resume
+                        </h3>
+                        <span class="portfolio-item__descr"
+                          >&laquo;Сайт-резюме&raquo; который можно использовать
+                          как шаблон для составления своего веб-резюме.</span
+                        >
+                        <div class="button portfolio-item__btn">
+                          <button
+                            class="btn-reset button__btn"
+                            aria-label="проект"
+                          >
+                            <a
+                              href="https://programming-it.ru/project_resume/project_resume.html"
+                              class="button__link"
+                              target="_blank"
+                              >Посмотреть</a
+                            >
+                          </button>
+                        </div>
+                        <img
+                          src="img/portfolio/github.svg"
+                          alt="github"
+                          class="portfolio-item__github-svg"
+                        />
+                        <a
+                          href="https://github.com/RomanD26/Template_resume"
+                          class="portfolio-item__github-link"
+                          target="_blank"
+                          >Посмотреть на&nbsp;Github
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide portfolio-item">
+                      <img
+                        class="portfolio-item__image"
+                        src="img/portfolio/Site_Webovio.jpg"
+                        alt="Portfolio cover"
+                      />
+                      <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">
+                          <b>Проект:</b> Landing page
+                        </h3>
+                        <span class="portfolio-item__descr">Сайт-визитка</span>
+                        <div class="button portfolio-item__btn">
+                          <button
+                            class="btn-reset button__btn"
+                            aria-label="проект"
+                          >
+                            <a
+                              href="https://programming-it.ru/webovio/webovio.html"
+                              class="button__link"
+                              target="_blank"
+                              >Посмотреть</a
+                            >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide portfolio-item">
+                      <img
+                        class="portfolio-item__image"
+                        src="./img/portfolio/Wather API.jpg"
+                        alt="Portfolio cover"
+                      />
+                      <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">
+                          <b>Проект:</b> Wather API
+                        </h3>
+                        <span class="portfolio-item__descr"
+                          >Одностраничное приложение, которое осущестрвляет сбор
+                          данных о&nbsp;текущей погоде и&nbsp;отображает
+                          их&nbsp;на&nbsp;странице.</span
+                        >
+                        <div class="button portfolio-item__btn">
+                          <button
+                            class="btn-reset button__btn"
+                            aria-label="проект"
+                          >
+                            <a
+                              href="https://programming-it.ru/wather/wather.html"
+                              class="button__link"
+                              target="_blank"
+                              >Посмотреть</a
+                            >
+                          </button>
+                        </div>
+                        <img
+                          src="img/portfolio/github.svg"
+                          alt="github"
+                          class="portfolio-item__github-svg"
+                        />
+                        <a
+                          href="https://github.com/RomanD26/Wather_API"
+                          class="portfolio-item__github-link"
+                          target="_blank"
+                          >Посмотреть на&nbsp;Github
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide portfolio-item">
+                      <img
+                        class="portfolio-item__image"
+                        src="./img/portfolio/saite.jpg"
+                        alt="Portfolio cover"
+                      />
+                      <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">
+                          <b>Проект:</b> Сайт-визитка
+                        </h3>
+                        <span class="portfolio-item__descr"
+                          >Сдесь можно посмотреть код сайта-визитки</span
+                        >
+                        <div class="button portfolio-item__btn">
+                         
+                        </div>                        
+                        <img
+                          src="img/portfolio/github.svg"
+                          alt="github"
+                          class="portfolio-item__github-svg"
+                        />
+                        <a
+                          href="https://github.com/RomanD26/site-information"
+                          class="portfolio-item__github-link"
+                          target="_blank"
+                          >Посмотреть на&nbsp;Github
+                        </a>
+                      </div>
+                    </div>
+
+
+                    <div class="swiper-slide portfolio-item">
+                      <img
+                        class="portfolio-item__image"
+                        src="img/portfolio/PopUp.jpg"
+                        alt="Portfolio cover"
+                      />
+                      <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">
+                          <b>Проект:</b> PopUp_Lightbox
+                        </h3>
+                        <span class="portfolio-item__descr"
+                          >Реализация Popup-окон типа &laquo;Лайтбокс&raquo;
+                          (Lightbox), вызываемые кликом.</span
+                        >
+                        <div class="button portfolio-item__btn">
+                          <button
+                            class="btn-reset button__btn"
+                            aria-label="проект"
+                          >
+                            <a
+                              href="https://programming-it.ru/popup/popup.html"
+                              class="button__link"
+                              target="_blank"
+                              >Посмотреть</a
+                            >
+                          </button>
+                        </div>
+                        <img
+                          src="img/portfolio/github.svg"
+                          alt="github"
+                          class="portfolio-item__github-svg"
+                        />
+                        <a
+                          href="https://github.com/RomanD26/PopUp_Lightbox"
+                          class="portfolio-item__github-link"
+                          target="_blank"
+                          >Посмотреть на&nbsp;Github
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide portfolio-item">
+                      <img
+                        class="portfolio-item__image"
+                        src="img/portfolio/parser.jpg"
+                        alt="Portfolio cover"
+                      />
+                      <div class="portfolio-item__content">
+                        <h3 class="portfolio-item__title">
+                          <b>Проект:</b> Parser
+                        </h3>
+                        <span class="portfolio-item__descr"
+                          >Синтаксический анализатор&nbsp;&mdash; часть
+                          программы,преобразующей входные данные в&nbsp;некий
+                          структурированный формат, нужный для задач
+                          и&nbsp;последующего их(данных) анализа
+                          и&nbsp;использования.</span
+                        >
+                        <div class="button portfolio-item__btn">
+                          <button
+                            class="btn-reset button__btn"
+                            aria-label="проект"
+                          >
+                            <a
+                              href="https://programming-it.ru/parser/parser.html"
+                              class="button__link"
+                              target="_blank"
+                              >Посмотреть</a
+                            >
+                          </button>
+                        </div>
+                        <img
+                          src="img/portfolio/github.svg"
+                          alt="github"
+                          class="portfolio-item__github-svg"
+                        />
+                        <a
+                          href="https://github.com/RomanD26/Parser"
+                          class="portfolio-item__github-link"
+                          target="_blank"
+                          >Посмотреть на&nbsp;Github
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-scrollbar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="skills-section">
+          <div class="container">
+            <div class="container__visually">
+              <span class="visually-hidden__hr-left"></span>
+              <h2 class="visually-hidden">Мои навыки</h2>
+              <span class="visually-hidden__hr-right"></span>
+            </div>
+            <div class="skills-container">
+              <div class="skills-container__info-top">
+                <div class="skills-container__item" style="opacity: 1">
+                  <img
+                    src="img/skills/html5.svg"
+                    alt="HTML 5"
+                    class="skills-container__image"
+                  />
+                  <div class="skills-container_description">
+                    <h3>HTML 5</h3>
+                    <p>
+                      Стандартизированный язык разметки документов в интернете
+                    </p>
+                    <span class="skills-container__underlined"
+                      >Уровень владения:</span
+                    >
+                    <div class="skills-container__level">
+                      <span
+                        class="skills-container__chart"
+                        style="width: 140px; height: 140px; line-height: 140px"
+                      >
+                        <span class="skills-container__percent">95</span>
+                        <canvas
+                          data-percent="95"
+                          class="skills-container__canvas"
+                        ></canvas
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-container__item" style="opacity: 1">
+                  <img src="img/skills/css-logo.svg" alt="CSS 3" />
+                  <div class="skills-container_description">
+                    <h3>CSS 3</h3>
+                    <p>Язык описания внешнего вида документа</p>
+                    <span class="skills-container__underlined"
+                      >Уровень владения:</span
+                    >
+                    <div class="skills-container__level">
+                      <span
+                        class="skills-container__chart"
+                        style="width: 140px; height: 140px; line-height: 140px"
+                      >
+                        <span class="skills-container__percent">90</span>
+                        <canvas
+                          data-percent="90"
+                          class="skills-container__canvas"
+                        ></canvas
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-container__item" style="opacity: 1">
+                  <img src="img/skills/JavaScript.svg" alt="JavaScript ES6+" />
+                  <div class="skills-container_description">
+                    <h3>JavaScript ES6+</h3>
+                    <p>
+                      Язык программирования высокого уровня, использующийся для
+                      придания интерактивности веб-страницам
+                    </p>
+                    <span class="skills-container__underlined"
+                      >Уровень владения:</span
+                    >
+                    <div class="skills-container__level">
+                      <span
+                        class="skills-container__chart"
+                        style="width: 140px; height: 140px; line-height: 140px"
+                      >
+                        <span class="skills-container__percent">80</span>
+                        <canvas
+                          data-percent="80"
+                          class="skills-container__canvas"
+                        ></canvas
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-container__item" style="opacity: 1">
+                  <img src="img/skills/jquery.svg" alt="jQuery" />
+                  <div class="skills-container_description">
+                    <h3>jQuery</h3>
+                    <p>
+                      Библиотека JavaScript, делающая взаимодействие с
+                      визуальными составляющими страницы более удобным
+                    </p>
+                    <span class="skills-container__underlined"
+                      >Уровень владения:</span
+                    >
+                    <div class="skills-container__level">
+                      <span
+                        class="skills-container__chart"
+                        style="width: 140px; height: 140px; line-height: 140px"
+                      >
+                        <span class="skills-container__percent">10</span>
+                        <canvas
+                          data-percent="10"
+                          class="skills-container__canvas"
+                        ></canvas
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-container__item" style="opacity: 1">
+                  <img src="img/skills/bootstrap.svg" alt="Bootstrap 4" />
+                  <div class="skills-container_description">
+                    <h3>Bootstrap 4</h3>
+                    <p>
+                      Библиотека, содержащая значительное количество готовых
+                      решений как для визуального оформления элементов
+                      веб-страницы, так и для создания интерактивности
+                    </p>
+                    <span class="skills-container__underlined"
+                      >Уровень владения:</span
+                    >
+                    <div class="skills-container__level">
+                      <span
+                        class="skills-container__chart"
+                        style="width: 140px; height: 140px; line-height: 140px"
+                      >
+                        <span class="skills-container__percent">80</span>
+                        <canvas
+                          data-percent="80"
+                          class="skills-container__canvas"
+                        ></canvas
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-container__item" style="opacity: 1">
+                  <img src="img/skills/React-icon.svg" alt="React" />
+                  <div class="skills-container_description">
+                    <h3>React</h3>
+                    <p>
+                      JavaScript-библиотека с открытым исходным кодом для
+                      разработки пользовательских интерфейсов
+                    </p>
+                    <span class="skills-container__underlined"
+                      >Уровень владения:</span
+                    >
+                    <div class="skills-container__level">
+                      <span
+                        class="skills-container__chart"
+                        style="width: 140px; height: 140px; line-height: 140px"
+                      >
+                        <span class="skills-container__percent">5</span>
+                        <canvas
+                          data-percent="5"
+                          class="skills-container__canvas"
+                        ></canvas
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-container__item" style="opacity: 1">
+                  <img src="img/skills/php.svg" alt="PHP7" />
+                  <div class="skills-container_description">
+                    <h3>PHP7</h3>
+                    <p>
+                      Наиболее часто применяемый язык программирования для
+                      разработки серверной части веб-сайтов и веб-приложений
+                    </p>
+                    <span class="skills-container__underlined"
+                      >Уровень владения:</span
+                    >
+                    <div class="skills-container__level">
+                      <span
+                        class="skills-container__chart"
+                        style="width: 140px; height: 140px; line-height: 140px"
+                      >
+                        <span class="skills-container__percent">10</span>
+                        <canvas
+                          data-percent="10"
+                          class="skills-container__canvas"
+                        ></canvas
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-container__item" style="opacity: 1">
+                  <img src="img/skills/Node.svg" alt="NodeJS" />
+                  <div class="skills-container_description">
+                    <h3>NodeJS</h3>
+                    <p>
+                      Программная платформа, позволяющая использовать JavaScript
+                      как язык общего назначения вне окна браузера
+                    </p>
+                    <span class="skills-container__underlined"
+                      >Уровень владения:</span
+                    >
+                    <div class="skills-container__level">
+                      <span
+                        class="skills-container__chart"
+                        style="width: 140px; height: 140px; line-height: 140px"
+                      >
+                        <span class="skills-container__percent">40</span>
+                        <canvas
+                          data-percent="40"
+                          class="skills-container__canvas"
+                        ></canvas
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-container__item" style="opacity: 1">
+                  <img src="img/skills/webpack.svg" alt="Webpack" />
+                  <div class="skills-container_description">
+                    <h3>Webpack</h3>
+                    <p>
+                      Наиболее мощный инструмент для проведения "сборки"
+                      frontend'а веб-сайтов
+                    </p>
+                    <span class="skills-container__underlined"
+                      >Уровень владения:</span
+                    >
+                    <div class="skills-container__level">
+                      <span
+                        class="skills-container__chart"
+                        style="width: 140px; height: 140px; line-height: 140px"
+                      >
+                        <span class="skills-container__percent">70</span>
+                        <canvas
+                          data-percent="70"
+                          class="skills-container__canvas"
+                        ></canvas
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-container__item" style="opacity: 1">
+                  <img src="img/skills/Babel.svg" alt="Babel" />
+                  <div class="skills-container_description">
+                    <h3>Babel</h3>
+                    <p>
+                      Компилятор JavaScript с открытым исходным кодом и
+                      настраиваемый транспилятор, используемый в веб-разработке
+                    </p>
+                    <span class="skills-container__underlined"
+                      >Уровень владения:</span
+                    >
+                    <div class="skills-container__level">
+                      <span
+                        class="skills-container__chart"
+                        style="width: 140px; height: 140px; line-height: 140px"
+                      >
+                        <span class="skills-container__percent">70</span>
+                        <canvas
+                          data-percent="70"
+                          class="skills-container__canvas"
+                        ></canvas
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills-container__item" style="opacity: 1">
+                  <img src="img/skills/Wordpress.svg" alt="Wordpress" />
+                  <div class="skills-container_description">
+                    <h3>Wordpress</h3>
+                    <p>
+                      Самая популярная система управления контентом для
+                      веб-сайтов
+                    </p>
+                    <span class="skills-container__underlined"
+                      >Уровень владения:</span
+                    >
+                    <div class="skills-container__level">
+                      <span
+                        class="skills-container__chart"
+                        style="width: 140px; height: 140px; line-height: 140px"
+                      >
+                        <span class="skills-container__percent">50</span>
+                        <canvas
+                          data-percent="50"
+                          class="skills-container__canvas"
+                        ></canvas
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="resume" class="content-section">
+          <div class="container">
+            <div class="container__visually">
+              <span class="visually-hidden__hr-left"></span>
+              <h2 class="visually-hidden">ОБО МНЕ</h2>
+              <span class="visually-hidden__hr-right"></span>
+            </div>
+
+            <div class="content-section__info-top">
+              <div class="content-section__enchtein">
+                <h3 class="content-section__enchtein-citata">
+                  &laquo;Единственный источник знаний&nbsp;&mdash; это
+                  опыт&raquo;,
+                </h3>
+                <p class="content-section__enchtein-autor">
+                  &mdash;&nbsp;Альберт Эйнштейн.
+                </p>
+              </div>
+              <div class="content-section__inform">
+                <div class="content-section__about-me">
+                  <h4 class="content-section__about-hed">Немного о себе</h4>
+                  <p class="content-section__about-inf">
+                    Для меня программирование это не&nbsp;просто трудовой
+                    процесс, но&nbsp;ещё творчество и&nbsp;увлечение.
+                  </p>
+                  <p class="content-section__about-inf">
+                    Постоянно повышаю квалификацию.
+                  </p>
+                  <p class="content-section__about-inf">
+                    Вот только часть пройденных мною курсов:
+                  </p>
+                  <ul class="content-section__course list-reset">
+                    <li class="content-section__course-hed">
+                      "HTML для JavaScript разработчиков" <br />
+                      <a
+                        class="content-section__link"
+                        href="img/education/html.jpg"
+                        >(Посмотреть мой сертификат)</a
+                      >
+                    </li>
+                    <li class="content-section__course-hed">
+                      "JavaScript v.2.0" <br />
+                      <a
+                        class="content-section__link"
+                        href="img/education/js.jpg"
+                        >(Посмотреть мой сертификат)</a
+                      >
+                    </li>
+                    <li class="content-section__course-hed">
+                      <a
+                        class="content-section__link"
+                        href="img/education/courses.jpg"
+                        >И еще...</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="content-section__education">
+                  <h4 class="content-section__education-hed">Образование</h4>
+                  <p class="content-section__education-inf">
+                    Высшее:
+                    <em
+                      >Южно-Российский государственный политехнический
+                      университет (НПИ) имени М.И. Платова</em
+                    >
+                  </p>
+                  <p class="content-section__education-inf"></p>
+                </div>
+              </div>
+             
+          </div>
+        </section>
+
+        <section id="contacts" class="contacts-section">
+          <div class="container__visually">
+            <span class="visually-hidden__hr-left"></span>
+            <h2 class="visually-hidden">Контакты</h2>
+            <span class="visually-hidden__hr-right"></span>
+          </div>
+
+          <div class="container contacts-section__container">
+            <form
+              id="form"
+              name="contactForm"
+              class="contacts-section__form contacts-form"
+              action=""
+              method="post"
+            >
+              <fieldset>
+                <legend class="contacts-form__title">
+                  Пожалуйста, оставьте свои контактные данные и&nbsp;сообщение,
+                  чтобы я&nbsp;мог с&nbsp;Вами связаться.
+                </legend>
+                <label class="contacts-form__field">
+                  <span class="contacts-form__caption">Имя *</span>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Введите ваше имя"
+                    class="contacts-form__input _requar"
+                    required
+                  />
+                </label>
+                <label class="contacts-form__field">
+                  <span class="contacts-form__caption">Телефон *</span>
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Введите ваш номер телефона"
+                    class="contacts-form__input _requar"
+                    required
+                  />
+                </label>
+                <label class="contacts-form__field">
+                  <span class="contacts-form__caption">Email</span>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Введите ваш email"
+                    class="contacts-form__input"
+                  />
+                </label>
+                <label class="contacts-form__field">
+                  <span class="contacts-form__caption">Сообщение *</span>
+                  <textarea
+                    name="message"
+                    placeholder="Напишите Ваше сообщение"
+                    class="contacts-form__input _requar contacts-form__input-big"
+                    required
+                  ></textarea>
+                </label>
+                <div class="button contacts-form__btn">
+                  <button
+                    type="submit"
+                    class="btn-reset contacts-form__button"
+                    aria-label="Запрос"
+                  >
+                    Отправить запрос
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__image">
+          <svg
+            preserveAspectRatio="none"
+            viewBox="0 0 100 102"
+            height="75"
+            width="100%"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+          </svg>
+        </div>
+        <div class="footer__container">
+          <div class="footer-top">
+            <div class="footer-top__item">
+              <span class="footer-top__text">Телефон</span>
+              <a href="tel:+79881169931" class="footer-top__value"
+                >+7 (988) 116 99-31</a
+              >
+            </div>
+            <div class="footer-top__item">
+              <span class="footer-top__text">Email</span>
+              <a
+                href="mailto:dikij.roman2017@yandex.ru"
+                class="footer-top__value"
+                >dikij.roman2017@yandex.ru</a
+              >
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <a class="footer-bottom__logo">
+              <img src="img/logo.svg" alt="Logo" />
+            </a>
+            <ul class="footer-bottom__social list-reset">
+              <li class="footer-bottom__social-item">
+                <a
+                  href="https://github.com/RomanD26"
+                  class="footer-bottom__social-link social-link-gh"
+                  target="_blank"
+                  aria-label="Link to GitHub"
+                ></a>
+              </li>
+              <li class="footer-bottom__social-item">
+                <a
+                  href="https://stepik.org/users/376535047"
+                  class="footer-bottom__social-link social-link-st"
+                  target="_blank"
+                  aria-label="Link to Stepik"
+                ></a>
+              </li>
+              <li class="footer-bottom__social-item">
+                <a
+                  href="https://www.codewars.com/users/RomanD26/stats"
+                  class="footer-bottom__social-link social-link-k"
+                  target="_blank"
+                  aria-label="Link to Codewars"
+                ></a>
+              </li>
+              <!-- <li class="footer-bottom__social-item">
+                <a
+                  href="#"
+                  class="footer-bottom__social-link social-link-x"
+                  target="_blank"
+                  aria-label="Link to __"
+                ></a>
+              </li> -->
+            </ul>
+            <small class="footer-bottom__copyright"></small>
+          </div>
+          <a class="footer__container__back-to-top" title="Наверх"></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

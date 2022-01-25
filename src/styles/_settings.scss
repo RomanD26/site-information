@@ -1,0 +1,104 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300, 400, 700;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+}
+
+.site-contaier {
+  overflow: hidden; // если на сайте  используется position: sticky - эту настройку нужно убрать
+  background: var(--color-bg);
+}
+
+.header {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 160%;
+  background-image: url(../img/fon.jpg);
+  background-attachment: fixed;
+
+  @include mobile {
+    background-image: url(../img/fon_mob.jpg);
+    background-repeat: no-repeat;
+    background-size: 160%;
+  }
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1260px;
+  height: 780px;
+
+  @include middledesk {
+    max-width: 1080px;
+    height: 860px;
+  }
+
+  @include desktop {
+    max-width: 972px;
+    height: 750px;
+  }
+
+  @include tablet {
+    max-width: 952px;
+    height: auto;
+  }
+
+  @include minitablet {
+    max-width: 747px;
+    height: auto;
+  }
+
+  @include mobile {
+    max-width: 472px;
+    height: auto;
+  }
+}

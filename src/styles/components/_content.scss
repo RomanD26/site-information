@@ -1,0 +1,102 @@
+.content-section {
+  &__info-top {
+    margin-top: 18px;
+
+    @include tablet {
+      padding-bottom: 24px;
+    }
+
+    @include mobile {
+      padding-bottom: 18px;
+    }
+  }
+
+  &__enchtein {
+    text-align: center;
+    padding-top: 24px;
+
+    @include mobile {
+      padding-top: 8px;
+    }
+  }
+
+  &__enchtein-citata {
+    margin: 0;
+    font-family: "Corvus", italic, sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.15rem;
+    color: var(--color-athens);
+
+    @include mobile {
+      font-size: 24px;
+    }
+  }
+
+  &__enchtein-autor {
+    font-size: 18px;
+    font-family: "Corvus", italic, sans-serif;
+    color: var(--color-athens);
+    letter-spacing: 0.15rem;
+    padding: 16px 0;
+  }
+
+  &__inform {
+    @include flex-h-center;
+    justify-content: space-around;
+    color: var(--color-athens);
+    padding-top: 24px;
+
+    @include mobile {
+      display: block;
+    }
+  }
+
+  &__course {
+    text-align: start;
+  }
+
+  &__course-hed {
+    padding-top: 12px;
+    font-size: 16px;
+  }
+
+  &__link {
+    color: var(--color-storm);
+  }
+
+  &__about-me,
+  &__education {
+    width: 45%;
+    text-align: center;
+
+    @include mobile {
+      width: 100%;
+    }
+  }
+
+  &__about-hed,
+  &__education-hed {
+    display: inline-block;
+    font-size: 28px;
+    letter-spacing: 0.1rem;
+    border-bottom: 2px dashed var(--color-storm);
+
+    @include mobile {
+      font-size: 22px;
+    }
+  }
+
+  &__about-inf,
+  &__education-inf {
+    text-align: start;
+    text-indent: 40px;
+    line-height: 30px;
+    font-size: 22px;
+
+    @include mobile {
+      font-size: 16px;
+      line-height: 24px;
+      text-indent: 28px;
+    }
+  }
+}

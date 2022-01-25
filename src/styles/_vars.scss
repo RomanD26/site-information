@@ -1,0 +1,53 @@
+// colors
+:root {
+  --color-black: #000;
+  --color-light: #fff;
+  --color-gray: #2c2c2c;
+  --color-storm: #787a80;
+  --color-ebony: #1e212c;
+  --color-primary: #ff5a30;
+  --color-athens: #bccdcc;
+  --color-active: #fc3300;
+
+  // button
+  --linear-gradient: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0) 20%,
+      rgba(255, 255, 255, 0) 90%,
+      rgba(255, 255, 255, 0.3)
+    ),
+    linear-gradient(
+      to right,
+      rgba(125, 125, 125, 1),
+      rgba(255, 255, 255, 0.9) 45%,
+      rgba(125, 125, 125, 0.5)
+    ),
+    linear-gradient(
+      to right,
+      rgba(125, 125, 125, 1),
+      rgba(255, 255, 255, 0.9) 45%,
+      rgba(125, 125, 125, 0.5)
+    ),
+    linear-gradient(
+      to right,
+      rgba(223, 190, 170, 1),
+      rgba(255, 255, 255, 0.9) 45%,
+      rgba(223, 190, 170, 0.5)
+    ),
+    linear-gradient(
+      to right,
+      rgba(223, 190, 170, 1),
+      rgba(255, 255, 255, 0.9) 45%,
+      rgba(223, 190, 170, 0.5)
+    );
+
+  // background
+  --color-bg: radial-gradient(ellipse at bottom, #30455e 0%, #090a0f 100%);
+}

@@ -1,0 +1,19 @@
+// базовые подключения
+@import "vendor";
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// компоненты страницы
+@import "./components/menu";
+@import "./components/nav";
+@import "./components/info";
+@import "./components/visually";
+@import "./components/button";
+@import "./components/skills";
+@import "./components/swiper-portfolio";
+@import "./components/contacts";
+@import "./components/form";
+@import "./components/content";
+@import "./components/footer";

@@ -1,0 +1,36 @@
+.container__visually {
+  @include flex-h-center;
+  position: relative;
+
+  .visually-hidden {
+    color: var(--color-primary);
+    font-family: "Furius", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 40px;
+    letter-spacing: 0.7rem;
+    font-size: 38px;
+
+    @include mobile {
+      font-size: 27px;
+    }
+
+    &__hr-right::after {
+      content: "";
+      background: linear-gradient(90deg, #b2b2b2, transparent);
+      position: absolute;
+      right: 0;
+      width: 50%;
+      height: 2px;
+    }
+
+    &__hr-left::before {
+      content: "";
+      background: linear-gradient(-90deg, #b2b2b2, transparent);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      height: 2px;
+    }
+  }
+}

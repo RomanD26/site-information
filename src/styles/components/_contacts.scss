@@ -1,0 +1,28 @@
+.contacts-section {
+  &__container {
+    max-width: 700px;
+    margin: 0 auto;
+
+    @include tablet {
+      padding-bottom: 24px;
+    }
+
+    @include minitablet {
+      padding-bottom: 14px;
+    }
+
+    @include mobile {
+      padding-bottom: 14px;
+    }
+  }
+
+  &__container::before,
+  &__container::after {
+    content: "";
+    display: table;
+  }
+
+  &__container::after {
+    clear: both;
+  }
+}

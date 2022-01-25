@@ -1,0 +1,73 @@
+.menu {
+  padding-top: 18px;
+  position: fixed;
+  width: 1200px;
+  z-index: 100;
+
+  @include middledesk {
+    width: 1040px;
+  }
+
+  @include desktop {
+    width: 940px;
+  }
+
+  @include tablet {
+    width: 840px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  @include minitablet {
+    display: flex;
+    justify-content: space-around;
+    width: 640px;
+  }
+
+  @include mobile {
+    display: flex;
+    justify-content: space-between;
+    max-width: 556px;
+    padding-top: 8px;
+  }
+
+  &__container {
+    @include flex-b;
+  }
+
+  .logo {
+    font-family: "Corvus", sans-serif;
+    font-size: 24px;
+
+    .container__logo-img {
+      @include bg-cover;
+      display: inline-block;
+      width: 62px;
+      height: 40px;
+    }
+
+    .container__logo {
+      color: var(--color-athens);
+
+      &:hover {
+        color: var(--color-primary);
+      }
+
+      &:active {
+        color: var(--color-active);
+      }
+    }
+
+    @include tablet {
+      display: none;
+    }
+
+    @include minitablet {
+      display: none;
+    }
+
+    @include mobile {
+      display: none;
+    }
+  }
+}

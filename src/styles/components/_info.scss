@@ -1,0 +1,164 @@
+.info {
+  @include flex;
+  justify-content: space-around;
+  padding-top: 180px;
+
+  @include desktop {
+    padding-top: 100px;
+  }
+
+  @include tablet {
+    padding-top: 82px;
+    padding-bottom: 24px;
+  }
+
+  @include minitablet {
+    padding-top: 76px;
+    padding-bottom: 14px;
+  }
+
+  @include mobile {
+    padding-top: 58px;
+    padding-bottom: 14px;
+  }
+
+  &__left {
+    flex: 1 1 auto;
+    max-width: 700px;
+
+    @include minitablet {
+      max-width: 90%;
+      text-align: center;
+    }
+
+    @include mobile {
+      max-width: 90%;
+    }
+  }
+
+  &__print {
+    font-family: "Furius", sans-serif;
+    font-size: 38px;
+    color: var(--color-athens);
+    text-align: center;
+
+    @include tablet {
+      font-size: 27px;
+    }
+
+    @include minitablet {
+      margin: 0;
+      padding-bottom: 18px;
+      font-size: 22px;
+    }
+
+    @include mobile {
+      margin: 0;
+      padding-bottom: 14px;
+      font-size: 20px;
+    }
+  }
+
+  &__name {
+    font-family: "Furius", sans-serif;
+    font-size: 34px;
+    color: var(--color-primary);
+    text-align: center;
+
+    @include tablet {
+      font-size: 28px;
+    }
+
+    @include minitablet {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    @include mobile {
+      margin: 0;
+      font-size: 18px;
+    }
+  }
+
+  &__hr_solid {
+    position: relative;
+    padding: 5px 0;
+  }
+
+  &__hr-right::after {
+    content: "";
+    background: linear-gradient(90deg, #b2b2b2, transparent);
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 2px;
+  }
+
+  &__hr-left::before {
+    content: "";
+    background: linear-gradient(-90deg, #b2b2b2, transparent);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 2px;
+  }
+
+  &__content {
+    margin: 0;
+    padding-top: 10px;
+    color: var(--color-athens);
+    line-height: 1.8rem;
+    letter-spacing: 0.3rem;
+    line-height: 34px;
+    font-family: "Corvus", italic, sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    text-indent: 10%;
+
+    @include tablet {
+      font-size: 24px;
+    }
+
+    @include minitablet {
+      letter-spacing: 0.15rem;
+      line-height: 24px;
+      font-size: 18px;
+    }
+
+    @include mobile {
+      letter-spacing: 0.1rem;
+      line-height: 20px;
+      font-size: 16px;
+    }
+  }
+
+  &__right {
+    @include bg-cover;
+    flex: 0 0 auto;
+    max-width: 500px;
+
+    &__foto {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    @include desktop {
+      display: flex;
+      flex: 1 0 36%;
+      // align-items: center;
+    }
+
+    @include tablet {
+      display: none;
+    }
+
+    @include minitablet {
+      display: none;
+    }
+
+    @include mobile {
+      display: none;
+    }
+  }
+}
